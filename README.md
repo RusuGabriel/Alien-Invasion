@@ -38,6 +38,8 @@ python3 -m pip install -r requirements.txt -->
 ## 🧐 About <a name = "about"></a>
 In The Empire Strikes Back project, I used the Pygame package to develop a 2D game in which the aim is to shoot down a fleet of Tie Fighters as they drop down the screen in levels that increase in speed and difficulty. 
 
+The TIE starfighter, simply known as the TIE Fighter or T/F, was the standard Imperial starfighter seen in massive numbers throughout most of the Galactic Civil War and onward.
+
 ## 🏁 Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
