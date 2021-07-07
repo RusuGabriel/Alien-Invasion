@@ -87,19 +87,11 @@ Give an example
 ## 🎈 Usage <a name="usage"></a>
 Add notes about how to use the system.
 
-## 🚀 Deployment <a name = "deployment"></a>
-Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
-- [Pygame](https://www.pygame.org/news) - library suited for game developing in Python
+- [Pygame](https://www.pygame.org/news) - library suited for game development in Python
 - [Visual Studio Code](https://code.visualstudio.com/) - code editor
 
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@gabriel-rusu](https://github.com/gabriel-rusu) - Idea & Initial work
-
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
