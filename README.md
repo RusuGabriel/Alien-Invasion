@@ -69,6 +69,11 @@ After activating the environment type:
     ```bash
     py start.py
     ```
+## 👀 Preview <a name = "preview"></a>
+<img src="screenshots/start.png" ></a>
+<img src="screenshots/level1.png"></a>
+<img src="screenshots/level2.png"></a>
+<img src="screenshots/level3.png"></a>
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [Pygame](https://www.pygame.org/news) - library suited for game development in Python
