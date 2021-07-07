@@ -19,13 +19,10 @@
 ## 📝 Table of Contents
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
 - [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
 In The Empire Strikes Back project, I used the Pygame package to develop a 2D game in which the aim is to shoot down a fleet of Tie Fighters as they drop down the screen in levels that increase in speed and difficulty. 
@@ -39,44 +36,23 @@ These instructions will get you a copy of the project up and running on your loc
 The following are the necessary tools needed to run/extend the current project:
 
 * [Python 3+](https://www.python.org/downloads/) - python interpreter
+* [Linux OS]() - 
 
 ### Installing
-A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
+To get the development environment ready to extend the current project, just type the following command in a terminal window opened in the root directory of this project:
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-Explain what these tests test and why
-
-```
-Give an example
+```bash
+./setup.sh
 ```
 
 ## 🎈 Usage <a name="usage"></a>
-Add notes about how to use the system.
+To run the game and test your skills type: 
 
+``` bash
+source env/bin/activate
+python3 start.py
+```
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [Pygame](https://www.pygame.org/news) - library suited for game development in Python
