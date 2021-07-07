@@ -12,7 +12,7 @@
 </div>
 
 
-<p align="center"> Few lines describing your project.
+<p align="center"> A 2D game in which the aim is to shoot down a fleet of Tie Fighters
     <br> 
 </p>
 
@@ -36,7 +36,6 @@ These instructions will get you a copy of the project up and running on your loc
 The following are the necessary tools needed to run/extend the current project:
 
 * [Python 3+](https://www.python.org/downloads/) - python interpreter
-* [Linux OS]() - 
 
 ### Installing
 
