@@ -12,7 +12,7 @@
 </div>
 
 
-<p align="center"> Few lines describing your project.
+<p align="center"> A 2D game in which the aim is to shoot down a fleet of Tie Fighters
     <br> 
 </p>
 
