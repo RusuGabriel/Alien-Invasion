@@ -1,8 +1,14 @@
 import sys
 import pygame
-from bullet import Bullet
-from alien import Alien
+from pygame.sprite import Group
+from ..components.bullet import Bullet
+from ..components.alien import Alien
 from time import sleep
+from .settings import Settings
+from ..components.scoreboard import Scoreboard
+from ..components.button import Button
+from ..components.ship import Ship
+from .game_stats import GameStats
 
 
 def check_events(ai_settings, screen, stats, sb,play_button, ship, aliens, bullets):
@@ -226,3 +232,36 @@ def check_aliens_bottom(ai_settings, screen, stats, sb, ship, aliens, bullets):
             # Treat this the same as if the ship got hit.
             ship_hit(ai_settings, screen, stats, sb, ship, aliens, bullets)
             break
+
+def run_game():
+    # Initialize game and create a screen object.
+    pygame.init()
+    ai_settings = Settings()
+    screen = pygame.display.set_mode(
+        (ai_settings.screen_width, ai_settings.screen_height))
+
+    # Maka a ship , a group of bullets, and a group of aliens.
+    ship = Ship(ai_settings, screen)
+    bullets = Group()
+    aliens = Group()
+
+    # Create an instance to store game statistics.
+    stats = GameStats(ai_settings)
+    sb = Scoreboard(ai_settings, screen, stats)
+    # create a fleet of aliens.
+    create_fleet(ai_settings, screen, ship, aliens)
+    pygame.display.set_caption("Alien Invasion")
+    bg_color = (230, 230, 230)
+    # Make the Play button.
+    play_button = Button(ai_settings, screen, "Play")
+    # Start the main loop for the game.
+    while True:
+        check_events(ai_settings, screen, stats,sb,
+                        play_button, ship, aliens, bullets)
+        if stats.game_active:
+            ship.update()
+            update_bullets(ai_settings, screen, stats,
+                              sb, ship, aliens, bullets)
+            update_aliens(ai_settings, screen, stats, sb, ship, aliens, bullets)
+        update_screen(ai_settings, screen, stats, sb, ship,
+                         aliens, bullets, play_button)
