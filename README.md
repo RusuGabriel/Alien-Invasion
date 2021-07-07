@@ -1,6 +1,6 @@
-<!-- <h1 align="center">Alien-Invasion</h1>
+<!-- <h1 align="center">The Empire Strikes Back</h1>
 
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the Alien Invasion project, I used the Pygame package to develop a 2D game in which the aim is to shoot down a fleet of aliens as they drop down the screen in levels that increase in speed and difficulty. The project has a good looking GUI.</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the The Empire Strikes Back project, I used the Pygame package to develop a 2D game in which the aim is to shoot down a fleet of TIE Fighters as they drop down the screen in levels that increase in speed and difficulty. The project has a good looking GUI.</p>
 
 
 python3 -m pip install -r requirements.txt -->
@@ -11,7 +11,7 @@ python3 -m pip install -r requirements.txt -->
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Alien Invasion</h3>
+<h3 align="center">The Empire Strikes Back</h3>
 
 <div align="center">
 
@@ -19,7 +19,6 @@ python3 -m pip install -r requirements.txt -->
 
 </div>
 
----
 
 <p align="center"> Few lines describing your project.
     <br> 

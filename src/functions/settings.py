@@ -1,5 +1,5 @@
 class Settings():
-    """A class to store all settings for Alien Invasion"""
+    """A class to store all settings for The Empire Strikes Back"""
 
     def __init__(self):
         """Initialize the game's settings."""
@@ -28,15 +28,15 @@ class Settings():
         """Initialize settings that change troughout the game."""
         self.ship_speed_factor = 1.5
         self.bullet_speed_factor = 3
-        self.alien_speed_factor = 1
+        self.fighter_speed_factor = 1
         # fleet_ direction of 1 represents right; -1 represents left.
         self.fleet_direction = 1
-        self.alien_points = 50
+        self.fighter_points = 50
         
     
     def increase_speed(self):
         """Increase speedsettings."""
         self.ship_speed_factor*= self.speedup_scale
         self.bullet_speed_factor *= self.speedup_scale
-        self.alien_speed_factor *= self.speedup_scale
-        self.alien_points = int(self.alien_points * self.score_scale)
+        self.fighter_speed_factor *= self.speedup_scale
+        self.fighter_points = int(self.fighter_points * self.score_scale)

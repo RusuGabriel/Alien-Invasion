@@ -1,12 +1,12 @@
 class GameStats():
-    """Track statistics for Alien Invasion."""
+    """Track statistics for The Empire Strikes Back."""
 
     def __init__(self, ai_settings):
         """Initialize statistics."""
         self.ai_settings = ai_settings
         self.reset_stats()
         self.score = 0
-        #Start Alien Invasion in an active state.
+        #Start The Empire Strikes Back in an active state.
         self.game_active = False
         #High score should never be reset.
         self.high_score = 0
