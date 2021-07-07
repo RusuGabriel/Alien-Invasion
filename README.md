@@ -41,18 +41,34 @@ The following are the necessary tools needed to run/extend the current project:
 ### Installing
 
 To get the development environment ready to extend the current project, just type the following command in a terminal window opened in the root directory of this project:
-
-```bash
-./setup.sh
-```
+ - Linux/MacOs:
+   ```bash
+   ./setup.sh
+   ```
+ - Windows:
+   ```bash
+   ./setup.bat
+   ```
 
 ## 🎈 Usage <a name="usage"></a>
-To run the game and test your skills type: 
-
-``` bash
-source env/bin/activate
-python3 start.py
-```
+To run the game and test your skills first activate the ```test-env``` virtual environment: 
+ - Linux/MacOs: 
+   ```bash
+   source test-env/bin/activate
+   ```
+ - Windows: 
+   ```bash
+   .\test-env\Scripts\activate
+   ```
+After activating the environment type:
+  - Linux/MacOs:
+    ```bash
+    python3 start.py
+    ```
+  - Windows:
+    ```bash
+    py start.py
+    ```
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [Pygame](https://www.pygame.org/news) - library suited for game development in Python
