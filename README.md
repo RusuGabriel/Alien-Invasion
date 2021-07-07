@@ -1,11 +1,3 @@
-<!-- <h1 align="center">The Empire Strikes Back</h1>
-
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the The Empire Strikes Back project, I used the Pygame package to develop a 2D game in which the aim is to shoot down a fleet of TIE Fighters as they drop down the screen in levels that increase in speed and difficulty. The project has a good looking GUI.</p>
-
-
-python3 -m pip install -r requirements.txt -->
-
-
 <p align="center">
   <a href="" rel="noopener">
  <img width=200px height=200px src="data/logo/logo.png" alt="Project logo"></a>
@@ -44,11 +36,9 @@ The TIE starfighter, simply known as the TIE Fighter or T/F, was the standard Im
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-What things you need to install the software and how to install them.
+The following are the necessary tools needed to run/extend the current project:
 
-```
-Give examples
-```
+* [Python 3+](https://www.python.org/downloads/) - python interpreter
 
 ### Installing
 A step by step series of examples that tell you how to get a development env running.
