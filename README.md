@@ -36,7 +36,6 @@ These instructions will get you a copy of the project up and running on your loc
 The following are the necessary tools needed to run/extend the current project:
 
 * [Python 3+](https://www.python.org/downloads/) - python interpreter
-* [Linux OS]() - 
 
 ### Installing
 
